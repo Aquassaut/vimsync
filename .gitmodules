@@ -28,3 +28,6 @@
 [submodule "bundle/vim-colorschemes"]
 	path = bundle/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "bundle/vim-colorscheme-switcher"]
+	path = bundle/vim-colorscheme-switcher
+	url = https://github.com/twe4ked/vim-colorscheme-switcher.git
