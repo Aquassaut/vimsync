@@ -9,6 +9,7 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 set smartindent
+syntax enable
 
 " key mapping for urxvt
 map  <C-_>
@@ -68,13 +69,29 @@ map <C-left> <Esc>:tabprev<CR>
 map <C-n> <Esc>:tabe .<CR>
 
 "colorscheme
-colorscheme desert
+colorscheme slate
 
 " gvim specifics
 if has('gui_running')
+  set guioptions+=c
+  set guioptions+=v
+  
   set guioptions-=e
+  set guioptions-=a
+  set guioptions-=g
+  set guioptions-=i
+  set guioptions-=m
+  set guioptions-=r
+  set guioptions-=T
+  set guioptions-=t
+  set guioptions-=L
+  set guioptions-=l
+  set guioptions-=b
+
+  set background=dark
+  colorscheme solarized
+
   set guifont=ProggyCleanTTSZ\ 12
-  colo two2tango
 endif
 
 " linux tty scpecifics
