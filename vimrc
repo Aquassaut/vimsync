@@ -66,7 +66,12 @@ noremap <silent> <c-s-down> :call <SID>swap_down()<CR>
 
 map <C-right> <Esc>:tabnext<CR>
 map <C-left> <Esc>:tabprev<CR>
-map <C-n> <Esc>:tabe .<CR>
+
+"NERDtree
+map <C-a> <Esc>:NERDTreeToggle<CR>
+
+
+
 
 "colorscheme
 colorscheme slate
