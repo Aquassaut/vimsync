@@ -70,11 +70,12 @@ map <C-left> <Esc>:tabprev<CR>
 "NERDtree
 map <C-a> <Esc>:NERDTreeToggle<CR>
 
-
-
+"latex break at 80
+autocmd FileType plaintex map <buffer> ; <Esc>^80lbi<CR><Esc>
+autocmd FileType tex map <buffer> ; <Esc>^80lbi<CR><Esc>
 
 "colorscheme
-colorscheme slate
+colorscheme torte
 
 " gvim specifics
 if has('gui_running')
