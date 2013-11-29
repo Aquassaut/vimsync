@@ -75,7 +75,7 @@ autocmd FileType plaintex map <buffer> ; <Esc>^80lbi<CR><Esc>
 autocmd FileType tex map <buffer> ; <Esc>^80lbi<CR><Esc>
 
 "colorscheme
-colorscheme torte
+colorscheme xoria256
 
 " gvim specifics
 if has('gui_running')
