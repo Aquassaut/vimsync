@@ -11,6 +11,8 @@ set tabstop=4
 set smartindent
 syntax enable
 
+
+
 " key mapping for urxvt
 map  <C-_>
 
@@ -19,11 +21,19 @@ map <ESC>OB <Down>
 map <ESC>OC <Right>
 map <ESC>OD <Left>
 
+"urxvt
 map <ESC>Oa <C-Up>
 map <ESC>Ob <C-down>
 map <ESC>Oc <C-Right>
 map <ESC>Od <C-Left>
 
+"tmux
+map <ESC>[A <C-Up>
+map <ESC>[B <C-down>
+map <ESC>[C <C-Right>
+map <ESC>[D <C-Left>
+
+"mappable in urxvt only
 map <ESC>[a <C-S-Up>
 map <ESC>[b <C-S-Down>
 map <ESC>[c <C-S-Right>
@@ -69,6 +79,10 @@ map <C-left> <Esc>:tabprev<CR>
 
 "NERDtree
 map <C-a> <Esc>:NERDTreeToggle<CR>
+
+"qq to esc
+inoremap qq <Esc>
+noremap qq <Esc> 
 
 "latex break at 80
 autocmd FileType plaintex map <buffer> ; <Esc>^80lbi<CR><Esc>
