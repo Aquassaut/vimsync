@@ -81,8 +81,8 @@ map <C-left> <Esc>:tabprev<CR>
 map <C-a> <Esc>:NERDTreeToggle<CR>
 
 "qq to esc
-inoremap qq <Esc>
-noremap qq <Esc> 
+inoremap jj <Esc>
+noremap jj <Esc> 
 
 "latex break at 80
 autocmd FileType plaintex map <buffer> ; <Esc>^80lbi<CR><Esc>
