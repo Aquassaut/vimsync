@@ -9,9 +9,9 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 set smartindent
+
+
 syntax enable
-
-
 
 " key mapping for urxvt
 map  <C-_>
@@ -78,7 +78,7 @@ map <C-right> <Esc>:tabnext<CR>
 map <C-left> <Esc>:tabprev<CR>
 
 "NERDtree
-map <C-a> <Esc>:NERDTreeToggle<CR>
+map <C-j> <Esc>:NERDTreeToggle<CR>
 
 "qq to esc
 inoremap jj <Esc>
